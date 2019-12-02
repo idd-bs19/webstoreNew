@@ -1,0 +1,154 @@
+.item {
+  display: inline-grid;
+}
+.button:hover {
+  background-color: #fff;
+  color: black;
+}
+.grid-toggle {
+  grid-template-columns: 2fr;
+  grid-gap: 2em;
+}
+
+.button {
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: center;
+}
+
+
+/* .item{
+  width: 250px;
+  height: auto;
+  margin: 10px;
+  padding: 40px;
+  display: inline-grid;
+  overflow: hidden;
+  font-family: 'Arimo', sans-serif;
+  
+} */
+
+
+
+
+#footer {
+	background-color: #909291;
+	padding: 50px 0;
+  text-align: center;
+  font-family: 'Arimo', sans-serif;
+  }
+  #footer a:hover {
+    background-color: #fff;
+    color: black;
+  }
+  .column {
+	min-width: 300px;
+	display: inline-grid;
+	vertical-align: top;
+	text-align: center;
+  }
+  
+  #footer h4 {
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+  }
+  
+  #footer p {
+	color: white;
+  }
+  #footer a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+  }
+
+div {
+  font-family: 'Arimo', sans-serif;
+}
+h1 {
+  font-family: 'Arimo', sans-serif;
+}
+h2 {
+  font-family: 'Arimo', sans-serif;
+}
+.description {
+  text-align: center;
+}
+.companyName {
+  text-align: center;
+}
+
+.topnav {
+  background-color: #868A96;
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
+.topnav a:hover {
+  background-color: #fff;
+  color: black;
+}
+.active {
+  background-color: #354460;
+  color: grey;
+}
+
+.largetext{
+  font-size: 2.5em;
+}
+a{
+  display: block;
+}
+
+@media screen and (min-width:800px){
+  body{
+    display: inline;
+    background-color: #939B90;
+    color: white;
+  }
+  .topnav a {
+    display: inline-block;
+    float: none;
+    color: #fff;
+    text-align: center;
+    padding: 0px 0px;
+    text-decoration: none;
+    font-size: 20px;
+    width: 150px;
+
+  }
+}
+
+@media screen and (min-width:320px){
+  body{
+    display:inline-block;
+    font-size:1.25em;
+    background-color: #939B90;
+  }
+  .topnav a {
+    display: inline-block;
+    float: none;
+    color: #fff;
+    text-align: center;
+    padding: 0px 0px;
+    text-decoration: none;
+    font-size: 20px;
+    width: 150px;
+  }
+  .item {
+    display: inline-grid;
+  }
+  .grid-toggle {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+  }
+}
