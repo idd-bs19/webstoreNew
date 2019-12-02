@@ -1,12 +1,29 @@
-.item {
-  display: inline-grid;
+body{
+  display:inline-block;
+  font-size:1.25em;
+  background-color: #939B90;
 }
+.topnav a {
+  display: inline-block;
+  float: none;
+  color: #fff;
+  text-align: center;
+  padding: 0px 0px;
+  text-decoration: none;
+  font-size: 20px;
+  width: 150px;
+}
+.item {
+  display: grid;
+}
+
+
 .button:hover {
   background-color: #fff;
   color: black;
 }
 .grid-toggle {
-  grid-template-columns: 2fr;
+  grid-template-columns: 1fr;
   grid-gap: 2em;
 }
 
@@ -109,6 +126,17 @@ a{
   display: block;
 }
 
+.grid-toggle {
+  grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (min-width:600px){
+
+  .grid-toggle {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 @media screen and (min-width:800px){
   body{
     display: inline;
@@ -126,29 +154,8 @@ a{
     width: 150px;
 
   }
+  .grid-toggle {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 
-@media screen and (min-width:320px){
-  body{
-    display:inline-block;
-    font-size:1.25em;
-    background-color: #939B90;
-  }
-  .topnav a {
-    display: inline-block;
-    float: none;
-    color: #fff;
-    text-align: center;
-    padding: 0px 0px;
-    text-decoration: none;
-    font-size: 20px;
-    width: 150px;
-  }
-  .item {
-    display: inline-grid;
-  }
-  .grid-toggle {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    
-  }
-}
