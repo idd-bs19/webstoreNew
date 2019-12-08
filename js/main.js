@@ -1,5 +1,4 @@
-
- const item = [
+const item = [
   {
     img: `img/i1.png`,
     name: `Resolute Hand Creame`,
@@ -31,26 +30,31 @@
     size: `250ml`,
     price: 90
   }, {
+    img: `iimg/i6.png`,
     img: `img/i6.png`,
     name: `Resolute Shower Oil`,
+    description: `tril`,
     description: `Coffee`,
     size: `250ml`,
     price: 90
   }, {
     img: `img/i7.png`,
     name: `Resolute Shower Oil`,
+    description: `tril`,
     description: `live`,
     size: `250ml`,
     price: 90
   }, {
     img: `img/i8.png`,
     name: `Resolute Shower Oil`,
+    description: `tril`,
     description: `hike`,
     size: `250ml`,
     price: 90
   }, {
     img: `img/i10.png`,
     name: `Resolute Shower Oil`,
+    description: `tril`,
     description: `salt`,
     size: `250ml`,
     price: 90
@@ -138,7 +142,6 @@
   function changeGrids() {
     document.getElementById(`item`).classList.toggle(`grid-toggle`);
   }
-
     function renderItem(arr) {
       const arrOfHtml = arr.map(getItemAsHtmlString)
       const strOfHtml = arrOfHtml.join(`\n`)
@@ -148,7 +151,6 @@
     renderItem(item.slice(0, 20));
 
     document.getElementById('layout').addEventListener('click', event => changeGrids() )
-
     
 
     

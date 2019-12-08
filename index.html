@@ -28,6 +28,24 @@
     </div>
     </div>
   </header>
+  <form>
+    <h4>Filter</h4>
+    <fieldset>
+      <legend>Price (less than)</legend>
+      <label><input type="radio" name="price" value="all" checked> All</label>
+      <label><input type="radio" name="price" value="90"> $90</label>
+      <label><input type="radio" name="price" value="130"> $130</label>
+      <label><input type="radio" name="price" value="150"> $150</label>
+    </fieldset>
+    <fieldset>
+      <label for="itemCategory">Category</label>
+      <select name="category" id="itemCategory">
+        <option value="" selected disabled>-- Search by Category --</option>
+        <option value="shower">shower</option>
+        <option value="skin-care">skin-care</option>
+      </select>
+    </fieldset>
+  </form>
   <main class="bodycontent">
     <div>
       <a href="#">
