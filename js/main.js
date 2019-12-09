@@ -66,7 +66,7 @@ const item = [
   }, {
     img: `img/i11.png`,
     category: `shower`,
-    name: `Resolute Shower Oil`,
+    name: `Resolute Shower gel`,
     description: `sandalwood`,
     size: `250ml`,
     cost: 50
@@ -101,7 +101,7 @@ const item = [
   }, {
     img: `img/i16.png`,
     category: `shower`,
-    name: `Resolute Shower Oil`,
+    name: `Resolute Face Scrub`,
     description: `Sea Mist`,
     size: `250ml`,
     cost: 40
@@ -115,28 +115,28 @@ const item = [
   }, {
     img: `img/i18.png`,
     category: `skincare`,
-    name: `Resolute Shower Oil`,
+    name: `Resolute Cleanser`,
     description: `live`,
     size: `250ml`,
     cost: 120
   }, {
     img: `img/i19.png`,
     category: `skincare`,
-    name: `Resolute Shower Oil`,
+    name: `Resolute Night Cream`,
     description: `hike`,
     size: `250ml`,
     cost: 130
   }, {
     img: `img/i20.png`,
     category: `skincare`,
-    name: `Resolute Soap Bar`,
+    name: `Resolute Day Cream`,
     description: `salt`,
     size: `250ml`,
     cost: 90
   }, {
     img: `img/i1.png`,
     category: `skincare`,
-    name: `Resolute Shower Oil`,
+    name: `Resolute Massage Cream`,
     description: `sandalwood`,
     size: `250ml`,
     cost: 90
