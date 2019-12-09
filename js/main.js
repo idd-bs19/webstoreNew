@@ -155,19 +155,6 @@ return `<article class="item ${item.category}">
 </article>`;
 }
 
-
-
-  // function getItemAsHtmlString(item) {
-  // return `<div> 
-  //             <img src=${item.img} width="230px" height="230px">
-  //             <h3><strong>${item.name}</strong></h3>
-  //             <a><strong>${item.description}</strong></a>
-  //             <a><strong>${item.size}</strong></a>
-  //             <a>$<strong>${item.cost}</strong></a>
-  //             <a class="button" href="product.html">Add to bag</a>
-  //       </div>
-  //       <br>`
-  // }
   
   function changeGrids() {
     document.getElementById(`item`).classList.toggle(`grid-toggle`);
@@ -188,8 +175,14 @@ return `<article class="item ${item.category}">
       const matchingCategories = item.filter(item => item.category == userSearch);
       renderItem(matchingCategories)
     }
+    function checkInput(event) {
+      const userSearch = event.target.value.toLowerCase();
+     
+      const matchingNames = item.filter(item => item.name.toLowerCase().includes(userSearch));
+      renderItem(matchingNames);
+    }
 
     document.getElementById('layout').addEventListener('click', event => changeGrids() )
     document.getElementById('itemCategory').addEventListener('click',event => checkCategory(event))
-
+    document.getElementById('itemName').addEventListener('input', event => checkInput(event) )
 
