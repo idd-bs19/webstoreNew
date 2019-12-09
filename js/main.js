@@ -136,7 +136,7 @@ const item = [
   }, {
     img: `img/i1.png`,
     category: `skincare`,
-    name: `Resolute Massage Cream`,
+    name: `Resolute Massage`,
     description: `sandalwood`,
     size: `250ml`,
     cost: 90
